@@ -3,7 +3,148 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Zoo sounds</title>
+    <link rel="icon" href="favicon.ico" />
   </head>
-  <body></body>
+
+  <body>
+    <div class="keys">
+      <button data-key="87" class="key">
+        <kbd>W</kbd>
+        <span class="sound">Woodpecker</span>
+      </button>
+      <button data-key="69" class="key">
+        <kbd>E</kbd>
+        <span class="sound">Elefant</span>
+      </button>
+      <button data-key="82" class="key">
+        <kbd>R</kbd>
+        <span class="sound">Rhino</span>
+      </button>
+      <button data-key="84" class="key">
+        <kbd>T</kbd>
+        <span class="sound">Tiger</span>
+      </button>
+      <button data-key="89" class="key">
+        <kbd>Y</kbd>
+        <span class="sound">Yak</span>
+      </button>
+      <button data-key="85" class="key">
+        <kbd>U</kbd>
+        <span class="sound">Umbrellabird</span>
+      </button>
+      <button data-key="73" class="key">
+        <kbd>I</kbd>
+        <span class="sound">Ibis</span>
+      </button>
+      <button data-key="79" class="key">
+        <kbd>O</kbd>
+        <span class="sound">Owl</span>
+      </button>
+      <button data-key="80" class="key">
+        <kbd>P</kbd>
+        <span class="sound">Panda</span>
+      </button>
+    </div>
+
+    <div class="keys">
+      <button data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">Alligator</span>
+      </button>
+      <button data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">Squirrel</span>
+      </button>
+      <button data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">Duck</span>
+      </button>
+      <button data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">Frog</span>
+      </button>
+      <button data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">Gorilla</span>
+      </button>
+      <button data-key="72" class="key">
+        <kbd>H</kbd>
+        <span class="sound">Horse</span>
+      </button>
+      <button data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound">Jay</span>
+      </button>
+      <button data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">Kangaroo</span>
+      </button>
+      <button data-key="76" class="key">
+        <kbd>L</kbd>
+        <span class="sound">Lion</span>
+      </button>
+    </div>
+
+    <div class="keys">
+      <button data-key="90" class="key">
+        <kbd>Z</kbd>
+        <span class="sound">Zebra</span>
+      </button>
+      <button data-key="67" class="key">
+        <kbd>C</kbd>
+        <span class="sound">Canary bird</span>
+      </button>
+      <button data-key="86" class="key">
+        <kbd>V</kbd>
+        <span class="sound">Vulture</span>
+      </button>
+      <button data-key="66" class="key">
+        <kbd>B</kbd>
+        <span class="sound">Bee</span>
+      </button>
+      <button data-key="78" class="key">
+        <kbd>N</kbd>
+        <span class="sound">Nachtigale</span>
+      </button>
+      <button data-key="77" class="key">
+        <kbd>M</kbd>
+        <span class="sound">Mosquito</span>
+      </button>
+    </div>
+
+    <audio data-key="65" src="sounds/alligator.mp3"></audio>
+    <audio data-key="66" src="sounds/bee.mp3"></audio>
+    <audio data-key="67" src="sounds/canary-bird.mp3"></audio>
+    <audio data-key="68" src="sounds/duck.mp3"></audio>
+    <audio data-key="69" src="sounds/elefant.mp3"></audio>
+    <audio data-key="70" src="sounds/frogs.mp3"></audio>
+    <audio data-key="71" src="sounds/gorilla.mp3"></audio>
+    <audio data-key="72" src="sounds/horse.mp3"></audio>
+    <audio data-key="73" src="sounds/ibis.mp3"></audio>
+    <audio data-key="74" src="sounds/jay.mp3"></audio>
+    <audio data-key="75" src="sounds/kangaroo.mp3"></audio>
+    <audio data-key="76" src="sounds/lion.mp3"></audio>
+    <audio data-key="77" src="sounds/mosquito.mp3"></audio>
+    <audio data-key="78" src="sounds/nachtigale.mp3"></audio>
+    <audio data-key="79" src="sounds/owl.mp3"></audio>
+    <audio data-key="80" src="sounds/panda.mp3"></audio>
+    <audio data-key="82" src="sounds/rhino.mp3"></audio>
+    <audio data-key="83" src="sounds/squirrel.mp3"></audio>
+    <audio data-key="84" src="sounds/tiger.mp3"></audio>
+    <audio data-key="85" src="sounds/umbrellabird.mp3"></audio>
+    <audio data-key="86" src="sounds/vulture.mp3"></audio>
+    <audio data-key="87" src="sounds/woodpecker.wav"></audio>
+    <audio data-key="89" src="sounds/yak.mp3"></audio>
+    <audio data-key="90" src="sounds/zebra.mp3"></audio>
+
+    <script src="index.js"></script>
+  </body>
 </html>
