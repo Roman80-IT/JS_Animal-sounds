@@ -37,3 +37,42 @@ button {
   transition: all 0.7s ease-in-out;
   cursor: pointer;
 }
+
+.key:hover {
+  background: rgb(121, 106, 83, 0.9);
+  box-shadow: 0 0 0.7rem var(--accent-color);
+}
+
+.playing {
+  transform: scale(1.1);
+  box-shadow: 0 0 1.5rem var(--accent-color);
+}
+
+kbd {
+  display: block;
+  font-size: 3rem;
+}
+
+.sound {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: var(--accent-color);
+}
+
+@media (max-width: 1024px) {
+  .key {
+    width: 5rem;
+    margin: 0.3rem;
+    padding: 0.5rem;
+  }
+
+  kbd {
+    font-size: 2rem;
+  }
+
+  .sound {
+    font-size: 0.75rem;
+    letter-spacing: 0;
+  }
+}
